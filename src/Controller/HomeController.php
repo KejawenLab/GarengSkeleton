@@ -1,9 +1,7 @@
 <?php
 
-namespace Application\Controller;
+namespace KejawenLab\Application\Controller;
 
-use Ihsan\Client\Platform\Controller\AbstractController;
-use Pimple\Container;
 use Symfony\Component\HttpFoundation\Response;
 
 /**

@@ -2,6 +2,7 @@
 
 require __DIR__.'/../vendor/autoload.php';
 
+use KejawenLab\Application\Bootstrap;
 use Symfony\Component\HttpFoundation\Request;
 
 $request = Request::createFromGlobals();

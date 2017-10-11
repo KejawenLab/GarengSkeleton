@@ -1,10 +1,10 @@
 <?php
 
-namespace Application\Middleware;
+namespace KejawenLab\Application\Middleware;
 
-use Application\Controller\AdminController;
-use Ihsan\Client\Platform\DependencyInjection\ContainerAwareInterface;
-use Ihsan\Client\Platform\DependencyInjection\ContainerAwareTrait;
+use KejawenLab\Application\Controller\AdminController;
+use KejawenLab\Framework\GarengFramework\DependencyInjection\ContainerAwareInterface;
+use KejawenLab\Framework\GarengFramework\DependencyInjection\ContainerAwareTrait;
 use Symfony\Component\HttpFoundation\RedirectResponse;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;

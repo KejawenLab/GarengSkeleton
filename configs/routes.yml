@@ -1,3 +1,3 @@
 app:
     routes:
-        - { path: '/', controller: 'Application:Home@index', methods: ['GET'] }
+        - { path: '/', controller: 'KejawenLab\Application:Home@index', methods: ['GET'] }

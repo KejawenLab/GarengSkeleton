@@ -1,9 +1,14 @@
 <?php
 
-use Ihsan\Client\Platform\Bootstrap as Base;
+namespace KejawenLab\Application;
+
+use KejawenLab\Framework\GarengFramework\Bootstrap as GarengBootstrap;
 use Psr\Cache\CacheItemPoolInterface;
 
-class Bootstrap extends Base
+/**
+ * @author Muhamad Surya Iksanudin <surya.kejawen@gmail.com>
+ */
+class Bootstrap extends GarengBootstrap
 {
     /**
      * @param string $configDir
@@ -21,6 +26,6 @@ class Bootstrap extends Base
      */
     protected function projectDir()
     {
-        return __DIR__;
+        return __DIR__.'/..';
     }
 }

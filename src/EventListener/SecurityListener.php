@@ -1,11 +1,11 @@
 <?php
 
-namespace Application\EventListener;
+namespace KejawenLab\Application\EventListener;
 
-use Application\Controller\AdminController;
-use Ihsan\Client\Platform\DependencyInjection\ContainerAwareInterface;
-use Ihsan\Client\Platform\DependencyInjection\ContainerAwareTrait;
-use Ihsan\Client\Platform\Event\FilterController;
+use KejawenLab\Application\Controller\AdminController;
+use KejawenLab\Framework\GarengFramework\DependencyInjection\ContainerAwareInterface;
+use KejawenLab\Framework\GarengFramework\DependencyInjection\ContainerAwareTrait;
+use KejawenLab\Framework\GarengFramework\Event\FilterController;
 use Symfony\Component\HttpFoundation\RedirectResponse;
 
 /**

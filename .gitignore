@@ -1,4 +1,5 @@
 /caches/*
 !/caches/.gitkeep
 /vendor
+/.idea
 
