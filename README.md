@@ -1,6 +1,7 @@
-# ClientApplication
-Client Platform Application
+# Gareng Skeleton
 
-This is implementation of Client Platform Framework
+## Apa itu Gareng Skeleton
 
-https://github.com/ad3n/ClientPlatform
+Gareng Skeleton adalah aplikasi skeleton untuk mempermudah penggunaan [Gareng Framework](https://github.com/KejawenLab/GarengFramework).
+
+Skeleton ini dilengkapi dengan contoh controller dan juga event listener serta middleware untuk mempermudah penggunaan.
